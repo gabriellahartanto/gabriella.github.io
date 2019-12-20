@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel= "stylesheet" type = "text/css" href = "style.css">
+        <title>My Games</title>
+    </head>
+    <body>
+        <h2>Guess the number!</h2>
+
+        <div class = "navigation">
+            <a class = "active" href = "index2.html">Portfolio</a>
+            |
+            <a href = "games.html">Games</a>
+        </div>
+        <script>
+            alert("game is starting");
+            //console.log(value);
+            var isi = [0, 0, 0, 0, 0];
+            isi [Math.floor(Math.random()*5)] = 1;
+            var fact = true;
+            var counter = 0;
+            while(fact){
+                var value = prompt("enter a number from 0 to 4");
+                counter++;
+                //isi [Math.floor(Math.random()*5)] = 1; --> this is for harder/smarter computer
+                if(isi[value] == 1){
+                    fact = false;
+                    alert("congratulations it took you "+ counter +" times");
+                }else{
+                    alert("try again");
+                }
+            }
+        </script>
+    </body>
+</html>
