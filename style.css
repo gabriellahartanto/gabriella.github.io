@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+/*@font-face {
+    font-family: sfprodisplay;
+    src: url(SF-Pro-Display-Regular.otf);
+}*/
+@font-face {
+    font-family: sfprotext;
+    src: url(SF-Pro-Text-Regular.otf);
+}
+
+* {
+    font-family: 'sfprotext';
+}
+
+.content {
+    font-size: 17px;
+    color: #33509D;
+}
+
+.content2 {
+    font-size: 17px;
+}
+
+.brie {
+    font-family: 'Mansalva', cursive;
+    font-size: 90px;
+    color: #FC3E20;
+    /* font-weight: bold; */
+}
+
+
+body {
+    background-color:#FCDAC1;
+    /* background-color: #FCD9BC; */
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 60px;
+    color: #FC3E20;
+}
+
+.about {
+    font-size: 30px;
+    color: #F77E6B;
+}    
+
+.school {
+    font-size: 25px;
+}
+
+.navigation {
+    /* padding: 10px; */
+    color: #FC3E20;
+    font-weight: bold;
+}
+
+.navigation a {
+    color: #FC3E20;
+    font-size: 20px;
+    /* padding: 6px; */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link {
+    font-size: 17px;
+    /*background-color: #d7ecf0;*/
+}
+
+.link a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #33509D;
+}
+
+.surprise {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.photo img {
+    width: 400px;
+}
+
+.gif img {
+    width: 400px;
+}
+
+.drink {
+    font-size: 20px;
+    font-weight: bold;
+    color:#F77E6B;
+}
+
+.listbook {
+    font-size: 20px;
+    font-weight: bold;
+    color:#F77E6B;
+}
+
+.book-container {
+    display: flex;
+}
+
+.book1 img, .book2 img, .book3 img {
+    border: 15px solid white;
+    width: 200px;
+}
+
+.text, .text2, .text3 {
+    text-align: center;
+}
