@@ -1,1 +1,0 @@
-# gabriellahartanto.github.io
