@@ -1,2 +1,2 @@
 # portfolio
-Est. July 2020 (Generation Girl Summer Club)
+est. Jul 2020 (Generation Girl Summer Club)
